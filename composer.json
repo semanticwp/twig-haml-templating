@@ -1,0 +1,15 @@
+{
+  "name": "semanticwp/twig-haml-templating",
+  "description": "Twig templating for WordPress, using HAML syntax",
+  "keywords": [ "twig", "haml", "wordpress", "templating", "semantic" ],
+  "homepage": "http://github.com/semanticwp/twig-haml-templating",
+  "license": "AGPL-3.0",
+  "require": {
+    "php": ">=5.4.4",
+    "twig/twig": "~1.13",
+    "mthaml/mthaml": "~1.2"
+  },
+  "autoload": {
+    "psr-0": { "SemanticWP\\Templating": "lib" }
+  }
+}
