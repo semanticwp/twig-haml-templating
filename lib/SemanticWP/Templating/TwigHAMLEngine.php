@@ -61,6 +61,6 @@ class TwigHAMLEngine {
    * @return string The rendered template
    */
   function render_template($template_file, $data) {
-    return $this->twig->render($template_file, $data);
+    return $this->engine->render($template_file, $data);
   }
 }
