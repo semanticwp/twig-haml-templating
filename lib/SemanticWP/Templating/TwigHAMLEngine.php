@@ -34,7 +34,7 @@ class TwigHAMLEngine {
   function __construct($template_roots = []) {
     // If no template roots are provided and this class is used within
     // a WordPress theme or plugin, set a default template root
-    if(empty($template_roots and function_exists('get_stylesheet_directory') {
+    if(empty($template_roots and function_exists('get_stylesheet_directory'))) {
       $template_roots = get_stylesheet_directory() . '/templates';
     }
 
