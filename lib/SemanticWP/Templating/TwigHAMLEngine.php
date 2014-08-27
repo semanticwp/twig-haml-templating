@@ -3,7 +3,7 @@
  * TwigHAMLEngine - Twig and MtHaml integration for WordPress templates
  *
  * @author Andrea Rota <a@xelera.eu>
- * @license AGPL-3.0
+ * @license AGPL-3.0+
  * @copyright 2014 Xelera
  *
  * This program is free software: you can redistribute it and/or modify
