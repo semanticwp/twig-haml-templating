@@ -7,12 +7,12 @@ templates, using [HAML](http://haml.info/) syntax, in WordPress themes.
 
 Add `semanticwp/twig-haml-templating` to your `composer.json`:
 
-  [...]
+    [...]
 
-  "require" : {
-    [...],
-    "semanticwp/twig-haml-templating": "dev-develop"
-  }
+    "require" : {
+      [...],
+      "semanticwp/twig-haml-templating": "dev-develop"
+    }
 
 Write your theme templates using HAML syntax and Twig; you can mix legacy PHP
 templates and Twig+HAML templates, so if you are migrating an existing theme to
@@ -26,7 +26,7 @@ If your Twig+HAML templates are under the `/templates` folder relative to your
 theme root, to process a template file `/templates/page.haml` using data from
 an array `$page_data`:
 
-  SemanticWP\Templating::get_template_part('/templates/page', $page_data));
+    SemanticWP\Templating::get_template_part('/templates/page', $page_data));
 
 (note the omission of the .haml file extension in the function call).
 
