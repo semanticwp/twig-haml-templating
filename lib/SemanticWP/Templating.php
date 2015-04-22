@@ -30,7 +30,7 @@ class Templating {
    * TODO: look for templates up the starter theme chain (e.g. final
    * theme, foundoots, roots)
    */
-  static function get_template_part($template_file, $data) {
+  static function get_template_part($template_file, $data = []) {
     $engine = new Templating\TwigHAMLEngine();
     echo $engine->render_template($template_file . '.haml', $data);
   }
